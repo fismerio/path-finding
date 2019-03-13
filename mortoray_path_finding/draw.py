@@ -95,7 +95,7 @@ def draw_board(surface, area, board):
 
 	colors = {
 		maze.CellType.Empty: (40,40,40),
-		maze.CellType.Block: (128,100,0),
+		maze.CellType.Block: (100,100,0), # was (128,100,0)
 	}
 	marks = {
 		maze.CellMark.Start: (110,110,0),
